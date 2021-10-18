@@ -4,8 +4,8 @@ RoboCopy Batch is a simple batch script frontend to RoboCopy.
 
 The application uses a RoboCopy jobfile named "robocopy.rcj" which must be in the same directory as the application itself. This jobfile contains all options that are given to
 RoboCopy. The first two rows of the jobfile must contain the following:
-  /NOSD
-  /NODD
+*  /NOSD
+*  /NODD
 
 A default RoboCopy jobfile has been added to the distribution.
 
