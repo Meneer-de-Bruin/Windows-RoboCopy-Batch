@@ -1,0 +1,14 @@
+/NOSD
+/NODD
+/V
+/FP
+/TEE
+/E
+/PURGE
+/XD
+	.svn
+/DCOPY:DAT
+/COPY:DAT
+/MT:8
+/R:240
+/W:30
