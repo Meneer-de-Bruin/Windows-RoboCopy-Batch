@@ -17,12 +17,12 @@ Also the application makes a log which has the following name: <systemdate/time>
 This application can be used in conjunction with Total Commander. 
 
 Add a button to the buttonbar (via change button bar) with the following parameters:
-* Command    : <path-to-robocopy-batch>\RoboCopy.bat
-* Parameters : %p %t 
-* Start path : <path-to-robocopy-batch>\
-* Icon file  : <path-to-total-commander>\TOTALCMD64.EXE
-* Icon       : <icon-of-choice>
-* Tooltip    : RoboCopy
+* Command    |:| <path-to-robocopy-batch>\RoboCopy.bat
+* Parameters |:| %p %t 
+* Start path |:| <path-to-robocopy-batch>\
+* Icon file  |:| <path-to-total-commander>\TOTALCMD64.EXE
+* Icon       |:| <icon-of-choice>
+* Tooltip    |:| RoboCopy
 
 # Prerequisites
 The follwing applications must be installed and runable from the commandline:
