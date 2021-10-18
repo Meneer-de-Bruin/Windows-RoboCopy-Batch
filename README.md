@@ -14,19 +14,20 @@ When starting RoboCopy command from the commandline the application makes a dire
 Also the application makes a log which has the following name: <systemdate/time>_<source folder name>.log. The log is saved in a sub-directory of the application named /log.
 
 # Total Commander
+This application can be used in conjunction with Total Commander. 
 
-rem Can be used in TotalCommander - with change button bar.
-rem Command    : <path-to-robocopy-batch>\RoboCopy.bat
-rem Parameters : %p %t 
-rem Start path : <path-to-robocopy-batch>\
-rem Icon file  : <path-to-total-commander>\TOTALCMD64.EXE
-rem Icon       : <icon-of-choice>
-rem Tooltip    : RoboCopy
+Add a button to the buttonbar (via change button bar) with the following parameters:
+* Command    : <path-to-robocopy-batch>\RoboCopy.bat
+* Parameters : %p %t 
+* Start path : <path-to-robocopy-batch>\
+* Icon file  : <path-to-total-commander>\TOTALCMD64.EXE
+* Icon       : <icon-of-choice>
+* Tooltip    : RoboCopy
 
 # Prerequisites
 The follwing applications must be installed and runable from the commandline:
--RoboCopy 
--Powershell
+* RoboCopy 
+* Powershell
  
 The distribution was specificly made for Windows 7.
 
