@@ -20,11 +20,13 @@ Add a button to the buttonbar (via change button bar) with the following paramet
 |Parameter|Value|
 |---------|-----|
 |Command    | \<path-to-robocopy-batch\>\\RoboCopy.bat|
-|Parameters | %p %t |
+|Parameters | %X%p %X%t |
 |Start path | \<path-to-robocopy-batch\>\\ |
 |Icon file  | \<path-to-total-commander\>\\TOTALCMD64.EXE|
 |Icon       | \<icon-of-choice\>|
 |Tooltip    | RoboCopy|
+
+The left window of TC (%X%p) is the source folder, the right window (%X%t) is the target folder. I use %p and %t as this gives the shortend version of the path which is seen as one parameter in the batch. In the batch it is expanded back to the long version with Powershell.
 
 # Prerequisites
 The follwing applications must be installed and runable from the commandline:
