@@ -3,7 +3,7 @@
 cls
 
 rem *** RoboCopy.bat ***
-rem Copyright : 2021 Koninklijke Bibliotheek
+rem Copyright : 2021 Rob de Bruin
 rem License   : MIT
 rem Date      : 12-10-2021 
 rem Version   : 0.9
